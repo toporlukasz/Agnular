@@ -1,27 +1,25 @@
-# AngularProject
+# Shopping List Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+This is a simple shopping list application built with Angular. It allows users to add products to the list, specify their quantity and price, and view the total cost of the items.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add products: Users can enter the name, quantity, and price of a product and add it to the shopping list.
+- Remove products: Users can remove items from the shopping list.
+- Image display: The application fetches a random product image from the Unsplash API based on the product name and displays it alongside the item in the list.
+- Total cost calculation: The application calculates and displays the total cost of all the items in the shopping list.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd shopping-list-app`
+3. Install dependencies: `npm install`
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Start the development server: `ng serve`
+2. Open your browser and visit: `http://localhost:4200`
 
-## Running unit tests
+## Contributing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
