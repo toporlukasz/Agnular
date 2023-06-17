@@ -12,7 +12,7 @@ This is a simple shopping list application built with Angular. It allows users t
 ## Installation
 
 1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd shopping-list-app`
+2. Navigate to the project directory: `cd ...`
 3. Install dependencies: `npm install`
 
 ## Usage
