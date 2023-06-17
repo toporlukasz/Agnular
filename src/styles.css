@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+table może {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 40%;
+}
+
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3) {
+  width: 20%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 10%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ddd;
+}

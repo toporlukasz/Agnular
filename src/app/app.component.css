@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("images/background.jpg");
+  backdrop-filter: blur(100px);
+  z-index: 99999;
+}
+.container {
+  background-color: #d7d9fa5b;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.781);
+}
