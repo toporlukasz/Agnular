@@ -1,0 +1,28 @@
+.btn-hover:hover {
+  background-color: #0069d9;
+  color: #fff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.validation-message {
+  margin-top: 5px;
+}
+
+.text-danger {
+  color: red;
+}
+
+.quantityValidationMessage {
+  margin-top: 5px;
+}
