@@ -28,6 +28,7 @@
     "@angular/cli": "~15.2.6",
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
+    "angular-cli-ghpages": "^1.0.6",
     "concurrently": "^8.0.1",
     "jasmine-core": "~4.5.0",
     "json-server": "^0.17.3",
